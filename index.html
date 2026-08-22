@@ -26,6 +26,9 @@
                   I am a Master's student in Artificial Intelligence at <a href="https://www.sogang.ac.kr/">Sogang University</a>, advised by Prof. <a href="https://sites.google.com/site/changjoonam">Changjoo Nam</a>. My research interests include multi-robot systems, path planning, and autonomous exploration.
                   I did my Bachelor's degree in Software Convergence (Robot Vision track) at <a href="https://www.khu.ac.kr/">Kyung Hee University</a>.
                 </p>
+                <p style="text-align:center;font-style:italic;color:#555;">
+                  "The greatest inventions in human history are the wheel and the motor."
+                </p>
                 <p style="text-align:center">
                   <a href="mailto:nate.co.kr67@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="https://www.linkedin.com/in/janghyun-cho/">LinkedIn</a> &nbsp;/&nbsp;
@@ -60,11 +63,73 @@
             </tr>
           </tbody></table>
 
+
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-            <tr>
+            <tr onmouseout="decmarvel_stop()" onmouseover="decmarvel_start()">
               <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="publications/img/Multi_Agent_Path_Finding.png" width="100%" alt="Multi-Agent Path Finding">
+                <div class="one">
+                  <div class="two" id="decmarvel_image"><video width="100%" height="100%" style="object-fit:contain;background-color:#fff;" muted autoplay loop>
+                  <source src="publications/Dec-MARVEL/2x_Dec_MARVEL.mov" type="video/quicktime">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src="publications/Dec-MARVEL/Multi_Robot_Exploration.png" width="100%" height="100%" style="object-fit:contain;background-color:#fff;" alt="Multi-Robot Exploration">
+                </div>
+                <script type="text/javascript">
+                  function decmarvel_start() {
+                    document.getElementById('decmarvel_image').style.opacity = "1";
+                  }
+
+                  function decmarvel_stop() {
+                    document.getElementById('decmarvel_image').style.opacity = "0";
+                  }
+                  decmarvel_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Decentralized Multi-Agent Exploration without Communication under Budget Constraints</span>
+                <br>
+                <strong>Janghyun Cho</strong><sup>*</sup>,
+                <a href="https://jimmychiun.me/">Jimmy Chiun</a><sup>*</sup>,
+                <a href="https://marmotlab.org/bio.html"> Guillaume Sartoretti </a>,
+                <a href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>
+                <br>
+                <em>Submitted, 2026</em>
+                <br>
+                <a href="publications/Dec-MARVEL/Multi_Robot_Exploration.png">
+                  <!-- <img src="publications/img/paperclip.png" height="16" style="vertical-align:middle; margin-right:4px;" alt="pdf">paper -->
+                </a>
+                <p></p>
+                <p>
+                  A decentralized budget-aware exploration framework for communication-free teams with directional sensing. Rather than exchanging maps, goals, or messages, each robot coordinates through its incidental observations.
+                </p>
+              </td>
+            </tr>
+
+          </tbody></table>
+
+
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <tr onmouseout="sirrtstar_stop()" onmouseover="sirrtstar_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id="sirrtstar_image"><video width="100%" height="100%" style="object-fit:contain;background-color:#fff;" muted autoplay loop>
+                  <source src="publications/SI-RRT-STAR/SI-RRT-STARx2.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src="publications/SI-RRT-STAR/Multi_Agent_Path_Finding.png" width="100%" height="100%" style="object-fit:contain;background-color:#fff;" alt="Multi-Agent Path Finding">
+                </div>
+                <script type="text/javascript">
+                  function sirrtstar_start() {
+                    document.getElementById('sirrtstar_image').style.opacity = "1";
+                  }
+
+                  function sirrtstar_stop() {
+                    document.getElementById('sirrtstar_image').style.opacity = "0";
+                  }
+                  sirrtstar_stop()
+                </script>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
                 <span class="papertitle">Scalable Multi-Robot Path Planning in Continuous Space</span>
@@ -77,7 +142,7 @@
                 <br>
                 <em>Submitted</em>, 2026
                 <br>
-                <a href="publications/img/Multi_Agent_Path_Finding.png">
+                <a href="publications/SI-RRT-STAR/Multi_Agent_Path_Finding.png">
                   <!-- <img src="publications/img/paperclip.png" height="16" style="vertical-align:middle; margin-right:4px;" alt="pdf">paper -->
                 </a>
                 <p></p>
@@ -89,38 +154,15 @@
 
           </tbody></table>
 
-          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="publications/img/Multi_Robot_Exploration.png" width="100%" alt="Multi-Robot Exploration">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">Decentralized Multi-Agent Exploration without Communication under Budget Constraints</span>
-                <br>
-                <strong>Janghyun Cho</strong>,
-                <a href="https://jimmychiun.me/">Jimmy Chiun</a>,
-                <a href="https://marmotlab.org/bio.html"> Guillaume Sartoretti </a>,
-                <a href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>
-                <br>
-                <em>Submitted, 2026</em>
-                <br>
-                <a href="publications/img/Multi_Robot_Exploration.png">
-                  <!-- <img src="publications/img/paperclip.png" height="16" style="vertical-align:middle; margin-right:4px;" alt="pdf">paper -->
-                </a>
-                <p></p>
-                <p>
-                  A decentralized budget-aware exploration framework for communication-free teams with directional sensing. Rather than exchanging maps, goals, or messages, each robot coordinates through its incidental observations.
-                </p>
-              </td>
-            </tr>
-
-          </tbody></table>
-
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h3>Work in Progress</h3>
+                <p>
+                  Multi-Floor Multi-Agent Pickup & Delivery
+                  <br>
+                  Heterogeneous Mobile Robot Control
+                </p>
               </td>
             </tr>
           </tbody></table>
@@ -130,7 +172,8 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Academic Service</h2>
                 <p>
-                  Reviewer, <a href="https://2026.ieee-icra.org/">ICRA 2026</a>
+                  Reviewer, <a href="https://2026.ieee-icra.org/">ICRA 2026</a>, 
+                  <a href="https://2026.iccas.org/">ICCAS 2026</a>
                   <br>
                 </p>
               </td>
