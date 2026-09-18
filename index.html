@@ -66,6 +66,52 @@
 
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <tr onmouseout="heterogcbf_stop()" onmouseover="heterogcbf_start()">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id="heterogcbf_image"><video width="100%" height="100%" style="object-fit:contain;background-color:#fff;" muted autoplay loop>
+                  <source src="publications/HeteroGCBF/HeteroGCBF_obs_v3_2x.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src="publications/HeteroGCBF/HeteroGCBF_thumbnail.png" width="100%" height="100%" style="object-fit:contain;background-color:#fff;" alt="Safe Navigation of Heterogeneous Mobile Robot Teams">
+                </div>
+                <script type="text/javascript">
+                  function heterogcbf_start() {
+                    document.getElementById('heterogcbf_image').style.opacity = "1";
+                  }
+
+                  function heterogcbf_stop() {
+                    document.getElementById('heterogcbf_image').style.opacity = "0";
+                  }
+                  heterogcbf_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">Safe Navigation of Heterogeneous Mobile Robot Teams</span>
+                <br>
+                <a href="https://joonkyung-kim.github.io/">Joonkyung Kim</a>,
+                <strong>Janghyun Cho</strong>,
+                <a>Jeehyun Lee</a>,
+                <a href="https://sites.google.com/site/changjoonam/">Changjoo Nam</a>,
+                <a href="https://yiweilyu-tamu.github.io/homepage/">Yiwei Lyu</a>
+                <br>
+                <em>Submitted</em>, 2026
+                <br>
+                <a href="publications/HeteroGCBF/HeteroGCBF_thumbnail.png">
+                  <!-- <img src="publications/img/paperclip.png" height="16" style="vertical-align:middle; margin-right:4px;" alt="pdf">paper -->
+                </a>
+                <p></p>
+                <p>
+                  This formulation provides a common geometric representation of safety across heterogeneous robots whileretaining their model-specific dynamics and admissible control constraints.
+                </p>
+              </td>
+            </tr>
+
+          </tbody></table>
+
+
+          <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
             <tr onmouseout="decmarvel_stop()" onmouseover="decmarvel_start()">
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <div class="one">
@@ -160,8 +206,6 @@
                 <h3>Work in Progress</h3>
                 <p>
                   Multi-Floor Multi-Agent Pickup & Delivery
-                  <br>
-                  Heterogeneous Mobile Robot Control
                 </p>
               </td>
             </tr>
