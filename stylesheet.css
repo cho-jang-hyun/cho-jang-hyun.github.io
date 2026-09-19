@@ -142,3 +142,28 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+/* Scale the whole page up on wide enough screens so it reads like it's
+   opened at 150% zoom. Gated to min-width so the 800px content (1200px
+   once scaled) doesn't overflow narrower/tablet viewports. */
+@media (min-width: 1250px) {
+  body {
+    zoom: 1.5;
+  }
+}
+
+/* Stack image/video-and-text rows (profile photo, publication entries)
+   vertically on narrow screens instead of squeezing them side by side. */
+@media (max-width: 700px) {
+  .stack-mobile,
+  .stack-mobile tbody,
+  .stack-mobile tr,
+  .stack-mobile td {
+    display: block;
+    width: 100% !important;
+  }
+
+  .one {
+    margin: 0 auto;
+  }
+}
